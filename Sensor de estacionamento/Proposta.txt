@@ -1,0 +1,7 @@
+Escreva uma aplicação embarcada que use o sensor HC-SR04 para medir a distância até um 
+obstáculo. A sinalização da distância será indicada de duas formas. Nos dois leds da LaunchPad 
+e por tom gerado por um buzzer passivo (ou mini amplificador com um alto falante) conforme 
+esquematiza na última página. Você 
+pode interpretar este problema como um sensor de estacionamento ou como um Theremin muito 
+simples.
+Ao manter o botão pressionado, a frequencia do buzzer muda, fazendo com que fique mais grave quanto mais perto o objeto for captado.

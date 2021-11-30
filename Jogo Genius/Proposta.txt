@@ -1,0 +1,6 @@
+A ideia dessa questão é fazer um jogo Genius com o MSP-430. No jogo Genius, mostrado abaixo, o jogo 
+primeiro mostra uma sequência de teclas piscando os botões coloridos. Em seguida, o jogador deve 
+repetir a sequência mostrada pelo jogo. 
+Na implementação, tem-se apenas dois botões – o botão da esquerda (botão P2.1 e LED P1.0) e da 
+direita (botão P1.1 e LED P4.7). Além disso, a comunicação do jogo com o usuário deve ser feita usando 
+os mesmos dois LEDs.

@@ -1,0 +1,4 @@
+ escreva um programa para o MSP-430 que indique qual das duas chaves (P2.1 ou P1.1) 
+foi acionada primeiro. Caso tenha sido a chave P2.1, o led vermelho (P1.0) deve acender, caso tenha sido 
+a chave P1.1, o led verde (P4.7) deve acender. Quando as duas chaves forem soltas, o estado dos leds 
+deve zerar e o programa deve recomeçar a monitorar as chaves novamente.

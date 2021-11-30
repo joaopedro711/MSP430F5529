@@ -1,0 +1,17 @@
+O Dispenser de Álcool em gel, consiste em:
+Quando o sensor capta um obstáculo com a distância de pelo menos 10 cm, além 
+que o sensor faz cerca de 20 medições por segundo. O Servo motor que é 
+responsável por movimentar o gatilho do recipiente de álcool em gel, só será 
+liberado caso em 2 segundos, seja feita 40 medições em cada uma delas sejam 
+menores que 10 cm.
+Quando a distância do obstáculo é maior que 10 cm, aparece uma mensagem no 
+LCD, “Mantenha a mão 2 seg na frente.”, o LED VERMELHO fica aceso neste 
+instante.
+A cada medida feita em que tenha distancia menor que 10 cm, aparece a 
+mensagem no LCD, “PROCESSING”, o LED AMARELO fica aceso nesse processo.
+Quando se passam 2 segundos em que cada medição seja menor que 10 cm, o 
+micro servo é acionado com a posição inicial de 90° a 180°, aparece a mensagem 
+no LCD, “OBRIGADO”, o LED AZUL fica aceso nesse processo.
+Existe uma trava para caso deseja-se fazer alguma manutenção. Ao pressionar o 
+botão P2.1, o LCD mostra a mensagem “MANUTENCION” e todos os LEDS ficam 
+acesos. Esse processo dura até que o botão P2.1 seja pressionado novamente.

@@ -1,0 +1,7 @@
+Escrever um transmissor e um receptor na UART.
+O transmissor DEVE utilizar o UCA0 (onde P3.3 é o TX). O código deve enviar 3 bytes (0xE7, 0x49 e 0x07) 
+quando o botão esquerdo for pressionado e (0xB2, 0x38 e 0xFA) quando o botão direito for pressionado.
+O receptor DEVE ser configurado no UCA1 (no pino P4.2 para o RX) . Quando a sequência (0xE7, 0x49 e 
+0x07) for recebida o receptor deve acender o LED vermelho (sem modificar o LED verde) e quando a 
+sequência (0xB2, 0x38 e 0xFA) for recebida o receptor deve acender o LED verde (sem modificar o LED 
+vermelho). Qualquer outra sequência de 3 bytes deve apagar os LEDs.
