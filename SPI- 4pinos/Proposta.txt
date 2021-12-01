@@ -1,0 +1,3 @@
+USCI_A0 SPI Mestre: envia letras A, ..., Z, a, ..., z, A...
+USCI_B1 SPI Escravo: eco com interrupção
+O UCxSTE irá operar em nivel baixo.
